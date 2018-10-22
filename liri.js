@@ -1,6 +1,6 @@
 /*Liri is CLI program that takes in a variety of commands to generate results 
 in music, concerts, twitter, and editing of text documents. Actions and/or search requests
-are generated via the Twitter API, Spotify API, and the OBMDB API. 
+are generated via the Spotify API, Bandsintow API and the OBMDB API. 
 */
 
 
@@ -85,6 +85,8 @@ function getThirdArgument(){
     }
     return argument;
 }
+
+//Calls Bands in Town API 
 
 //Calls spotify API to retrieve song information for song title. 
 function getSongInfo(songTitle) {
