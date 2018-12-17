@@ -11,7 +11,7 @@ and artists. Liri uses both the spotify api and OMDB api to perform these functi
 - Spotify API
 - OMDB API 
 
-## Screenshots 
+
 
 
 
